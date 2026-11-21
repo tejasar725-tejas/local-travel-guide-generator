@@ -144,6 +144,14 @@ The first command downloads `gpt2` from Hugging Face, injects rank-8 LoRA adapte
 
 Then select **Merged LoRA model** in the Streamlit sidebar. The model directory is ignored by Git to avoid committing large model binaries. `MODEL_DIR` in `.env` can point to a different merged checkpoint.
 
+## Screenshots
+
+Illustrative previews are stored in `outputs/screenshots/`:
+- `01_streamlit_app_preview.png` — Streamlit layout and example mini-guide.
+- `02_evaluation_preview.png` — baseline evaluation summary.
+
+These are clearly labeled UI/report previews, not browser captures. Capture genuine screenshots after running the application locally and replace these previews before claiming they are runtime evidence.
+
 ## Evaluation and sample output
 ```bash
 python scripts/evaluate.py
