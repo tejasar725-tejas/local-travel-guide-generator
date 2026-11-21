@@ -1,0 +1,10 @@
+Evaluation run (deterministic baseline; generated from the included hand-authored dataset)
+Input: Aurelia Bay | food, history | 2 days
+Interest coverage: 100% (2/2 requested interest labels appear)
+Selected recommendations: Old Lantern Quarter; Spice Wharf Breakfast; Aurelia Maritime Museum
+
+Manual review checklist:
+- Relevance: selected examples directly match food/history tags.
+- Appeal: each item includes a short activity description, fit rationale and actionable local tip.
+- Safety/accuracy: fictional city disclaimer is visible; real opening hours/prices are not invented.
+- Limit: lexical coverage does not measure factual accuracy, diversity or traveler satisfaction.
